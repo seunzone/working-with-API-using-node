@@ -1,0 +1,24 @@
+{
+  "name": "working-with-api-using-node",
+  "version": "1.0.0",
+  "description": "a repo teaching folks how to use API's with node --just JS, not styling",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seunzone/working-with-API-using-node.git"
+  },
+  "author": "Seun Daramola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seunzone/working-with-API-using-node/issues"
+  },
+  "homepage": "https://github.com/seunzone/working-with-API-using-node#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "request": "^2.81.0"
+  }
+}
