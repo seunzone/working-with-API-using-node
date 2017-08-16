@@ -1,7 +1,7 @@
 <h1>Movie Page </h1>
 
 
-<h2>Plot:</h2>
+<h2>Brief Detail:</h2>
 <%= data["data"]["plot"] %> <br>
 <h2>Year:</h2>
 <%= data["data"]["year"] %><br>
@@ -9,3 +9,7 @@
 <%= data["data"]["director"] %> <br>
 <h2>Genre:</h2>
 <%= data["data"]["genre"] %>
+<h2>Movie Cover</h2>
+<img src="<%= data["data"]["poster_url"] %>">
+<br><hr>
+<a href="/">Search For Another Movie</a>
